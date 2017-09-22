@@ -1,0 +1,133 @@
+header{
+  margin: -8px 0px 0px -8px;
+  text-align: center;
+  background: url(https://scontent.fagr1-1.fna.fbcdn.net/v/t1.0-9/20156180_1175566862547229_5103088899758630420_n.jpg?oh=5d5aa8aa21bbbfb432e66a174ffbc27f&oe=5A1D5720);
+  background-size: cover;
+  background-position: center;
+  width: 101%;
+  height: 326px;
+  color: Black;
+  font-family: helvetica;
+  }
+  article{
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    text-align: left;
+  }
+  ul {
+    padding: 2px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  li{
+    display: inline;
+    padding: 0px 50px 0px 50px;
+    font-size: 18px;
+  }
+  a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover, a:active {
+    background-color: red;
+  }
+  img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 40px 0px 0px 0px;
+    border: 7px;
+    border-color: black;
+  }
+  @media (max-width: 720px) {
+    header{
+       height: 339px;
+    }
+    img{
+      margin: 20px 0px -20px 0px;
+    }
+    h1{
+      font-size: 30px;
+      color: white;
+    }
+    ul{
+      margin: -10px;
+    }
+    li{
+      display: block;
+      margin: 5px;
+    }
+    a:link, a:visited {
+      background-color: #f44336;
+      color: white;
+      padding: 1px 5px;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+    }
+    a:hover, a:active {
+      background-color: red;
+    }
+    article{
+      text-align: center;
+      width: 100%;
+      margin: 0;
+    }
+  }
+  @media (max-width: 360px){
+    header{
+      height: 339px;
+    }
+    img{
+      margin: 20px 0px -20px 0px;
+    }h1{
+      font-size: 30px;
+      color: white;
+    }
+    ul{
+      margin: -10px;
+    }
+    li{
+      display: block;
+      margin: 5px;
+    }
+    a:link, a:visited {
+      background-color: #f44336;
+      color: white;
+      padding: 1px 5px;
+      text-align: center;
+      text-decoration: none;
+      display: block;
+    }
+    a:hover, a:active {
+      background-color: red;
+    }
+    article{
+      text-align: center;
+      width: 100%;
+      margin: 0;
+    }
+  }
+  body{
+    background: url("https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/15747422_995376600566257_2536864184236740954_n.jpg?oh=48764d6f5bd9d25871f294f4a4a578bd&oe=5A4FEB96");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+  h1{
+    color: white;
+  }
+  p{
+    color: white;
+    font-weight: 600;
+  }
+  footer{
+    text-align: center;
+    color: white;
+  }
