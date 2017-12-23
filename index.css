@@ -63,8 +63,10 @@ footer{
   background-color: black;
   padding: 10px 10px 10px 10px;
 }
+.ch{
+  margin-right: 300px;
+}
 .fa-facebook-official{
-  margin-left: 300px;
   margin-right: 10px;
   padding: 5px 5px 5px 5px;
   font-size: 25px !important;
@@ -94,20 +96,20 @@ footer{
   font-size: 25px !important;
 }
 .fa-facebook-official:hover{
+  color: #365899;
   background: white;
-  color: black;
 }
 .fa-instagram:hover{
+  color: #bc2a8d;
   background: white;
-  color: black;
 }
 .fa-twitter:hover{
+  color: #1da1f2;
   background: white;
-  color: black;
 }
 .fa-youtube-play:hover{
+  color: #ff0000;
   background: white;
-  color: black;
 }
 .fa-github:hover{
   background: white;
@@ -120,8 +122,10 @@ a:hover{
   color: black !important;
 }
 @media (min-width: 1111px) and (max-width: 1125px){
+  .ch{
+    margin-right: 200px;
+  }
   .fa-facebook-official{
-    margin-left: 200px;
     margin-right: 10px;
     padding: 5px 5px 5px 5px;
     font-size: 25px !important;
@@ -152,8 +156,10 @@ a:hover{
   }
 }
 @media (min-width: 1090px) and (max-width: 1110px){
+  .ch{
+    margin-right: 190px;
+  }
   .fa-facebook-official{
-    margin-left: 190px;
     margin-right: 10px;
     padding: 5px 5px 5px 5px;
     font-size: 25px !important;
@@ -184,8 +190,10 @@ a:hover{
   }
 }
 @media (min-width: 1070px) and (max-width: 1089px){
+  .ch{
+    margin-right: 180px;
+  }
   .fa-facebook-official{
-    margin-left: 180px;
     margin-right: 10px;
     padding: 5px 5px 5px 5px;
     font-size: 25px !important;
@@ -216,8 +224,10 @@ a:hover{
   }
 }
 @media (min-width: 1050px) and (max-width: 1069px){
+  .ch{
+    margin-right: 170px;
+  }
   .fa-facebook-official{
-    margin-left: 170px;
     margin-right: 10px;
     padding: 5px 5px 5px 5px;
     font-size: 25px !important;
@@ -248,8 +258,10 @@ a:hover{
   }
 }
 @media (min-width: 1020px) and (max-width: 1049px){
+  .ch{
+    margin-right: 150px;
+  }
   .fa-facebook-official{
-    margin-left: 150px;
     margin-right: 10px;
     padding: 5px 5px 5px 5px;
     font-size: 25px !important;
@@ -280,8 +292,10 @@ a:hover{
   }
 }
 @media (min-width: 990px) and (max-width: 1019px){
+  .ch{
+    margin-right: 130px;
+  }
   .fa-facebook-official{
-    margin-left: 130px;
     margin-right: 10px;
     padding: 5px 5px 5px 5px;
     font-size: 25px !important;
@@ -312,8 +326,10 @@ a:hover{
   }
 }
 @media (min-width: 910px) and (max-width: 989px){
+  .ch{
+    margin-right: 90px;
+  }
   .fa-facebook-official{
-    margin-left: 90px;
     margin-right: 10px;
     padding: 5px 5px 5px 5px;
     font-size: 25px !important;
@@ -344,8 +360,10 @@ a:hover{
   }
 }
 @media (min-width: 830px) and (max-width: 909px){
+  .ch{
+    margin-right: 50px;
+  }
   .fa-facebook-official{
-    margin-left: 50px;
     margin-right: 10px;
     padding: 5px 5px 5px 5px;
     font-size: 25px !important;
@@ -376,8 +394,10 @@ a:hover{
   }
 }
 @media (min-width: 780px) and (max-width: 829px){
+  .ch{
+    margin-right: 50px;
+  }
   .fa-facebook-official{
-    margin-left: 50px;
     margin-right: 10px;
     padding: 5px 5px 5px 5px;
     font-size: 25px !important;
@@ -408,8 +428,10 @@ a:hover{
   }
 }
 @media (min-width: 719px) and (max-width: 779px){
+  .ch{
+    margin-right: 50px;
+  }
   .fa-facebook-official{
-    margin-left: 50px;
     margin-right: 10px;
     padding: 5px 5px 5px 5px;
     font-size: 25px !important;
@@ -440,8 +462,10 @@ a:hover{
   }
 }
 @media (min-width: 660px) and (max-width: 718px){
+  .ch{
+    margin-right: 40px;
+  }
   .fa-facebook-official{
-    margin-left: 40px;
     margin-right: 10px;
     padding: 5px 5px 5px 5px;
     font-size: 25px !important;
@@ -472,8 +496,10 @@ a:hover{
   }
 }
 @media (min-width: 602px) and (max-width: 659px){
+  .ch{
+    margin-right: 20px;
+  }
   .fa-facebook-official{
-    margin-left: 20px;
     margin-right: 10px;
     padding: 5px 5px 5px 5px;
     font-size: 20px !important;
@@ -513,6 +539,9 @@ a:hover{
   footer{
     height: 65px;
   }
+  .ch{
+    margin-right: 0;
+  }
 }
 @media (min-width: 254px) and (max-width: 467px){
   footer a{
@@ -523,6 +552,9 @@ a:hover{
   }
   footer{
     height: 50px;
+  }
+  .ch{
+    margin-right: 0;
   }
 }
 @media (max-width: 253px){
@@ -536,8 +568,14 @@ a:hover{
     height: 55px;
     font-size: 17px;
   }
+  .ch{
+    margin-right: 0;
+  }
 }
 @media (max-width: 241px){
+  .bt{
+    margin-left: 0;
+  }
   footer a{
     display: none;
   }
@@ -547,5 +585,30 @@ a:hover{
   footer{
     height: 69px;
     font-size: 17px;
+  }
+  .ch{
+    margin-right: 0;
+  }
+}
+@media (max-width: 169px){
+  .st{
+    font-size: 25px;
+  }
+  .bt{
+    font-size: 25px;
+    margin-left: 0;
+  }
+  footer a{
+    display: none;
+  }
+  header{
+    height: 110px;
+  }
+  footer{
+    height: 60px;
+    font-size: 15px;
+  }
+  .ch{
+    margin-right: 0;
   }
 }
