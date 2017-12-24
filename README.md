@@ -1,5 +1,6 @@
-# ARTIST PORTFOLIO
-Front page done
-Home page done
-Gallery done
-About Artist on progress
+### STARBOYALANKARARTIST PORTFOLIO
+- [x] Front Page
+- [x] Home Page
+- [x] Gallery Page
+- [ ] About Artist Page
+- [ ] Contact
